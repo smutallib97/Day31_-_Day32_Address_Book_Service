@@ -9,3 +9,6 @@ insert into AddressBook (firstName, lastName, address, city, state, zipcode, pho
 ('Sayyed','Mutallib','KOregaon Bhima','Pune','Maharashtra', 442216, 9818451275,'smutallib@gmail.com'),
 ('Madhu','Sudhan S','Malavalli','Mandya','Karnataka',522315,7745123698,'ssmadhu77@gmail.com'),
 ('Vaibhav', 'Pathak', 'Chinchwad', 'Pune', 'Maharashtra', 412202, 9845123657, 'vpathak97@gmail.com');
+select * from AddressBook;
+update AddressBook set phoneNumber = 8105897193 WHERE firstName = 'Ullas';
+update AddressBook set email = 'ullask97@gmail.com' WHERE firstName = 'Ullas';
