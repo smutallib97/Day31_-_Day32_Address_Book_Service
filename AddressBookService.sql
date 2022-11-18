@@ -18,3 +18,7 @@ select * from AddressBook where state = 'Karnataka';
 select count(firstName) from AddressBook where city = 'Gurgaon';
 select count(firstName) from AddressBook where city = 'Bangalore';
 select count(firstName) from AddressBook where state = 'Karnataka';
+insert into AddressBook (firstName, lastName, address, city, state, zipcode, phoneNumber, email)values 
+('Shivam', 'Kumar', 'Whitefield', 'Mysuru', 'Karnataka', 584131, 7845123654,'shivk78@gmail.com');
+select * from AddressBook;
+select firstName, city from AddressBook order by firstName;
