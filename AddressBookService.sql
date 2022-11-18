@@ -31,3 +31,8 @@ update AddressBook set bookName = 'ProfessionBook', contactType = 'Profession' w
 select count(firstName) from AddressBook where contactType = 'Family'; 
 select count(firstName) from AddressBook where contactType = 'Friends'; 
 select count(firstName) from AddressBook where contactType = 'Profession';
+insert into AddressBook (firstName, lastName, address, city, state, zipcode, phoneNumber, email, bookName, contactType) values
+('Vaibhav', 'Pathak', 'Chinchwad', 'Pune', 'Maharashtra', 412202, 9845123657, 'vpathak97@gmail.com', 'FamilyBook', 'Family');
+insert into AddressBook (firstName, lastName, address, city, state, zipcode, phoneNumber, email, bookName, contactType) values
+('Vaibhav', 'Pathak', 'Chinchwad', 'Pune', 'Maharashtra', 412202, 9845123657, 'vpathak97@gmail.com', 'FriendsBook', 'Friends');
+select * from AddressBook;
