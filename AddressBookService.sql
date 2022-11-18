@@ -15,3 +15,6 @@ update AddressBook set email = 'ullask97@gmail.com' WHERE firstName = 'Ullas';
 delete from AddressBook where firstName = 'Vaibhav';
 select * from AddressBook where city = 'Gurgaon';
 select * from AddressBook where state = 'Karnataka';
+select count(firstName) from AddressBook where city = 'Gurgaon';
+select count(firstName) from AddressBook where city = 'Bangalore';
+select count(firstName) from AddressBook where state = 'Karnataka';
