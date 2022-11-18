@@ -12,3 +12,4 @@ insert into AddressBook (firstName, lastName, address, city, state, zipcode, pho
 select * from AddressBook;
 update AddressBook set phoneNumber = 8105897193 WHERE firstName = 'Ullas';
 update AddressBook set email = 'ullask97@gmail.com' WHERE firstName = 'Ullas';
+delete from AddressBook where firstName = 'Vaibhav';
