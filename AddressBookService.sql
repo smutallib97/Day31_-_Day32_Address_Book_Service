@@ -13,3 +13,5 @@ select * from AddressBook;
 update AddressBook set phoneNumber = 8105897193 WHERE firstName = 'Ullas';
 update AddressBook set email = 'ullask97@gmail.com' WHERE firstName = 'Ullas';
 delete from AddressBook where firstName = 'Vaibhav';
+select * from AddressBook where city = 'Gurgaon';
+select * from AddressBook where state = 'Karnataka';
