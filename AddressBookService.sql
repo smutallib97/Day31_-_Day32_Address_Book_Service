@@ -28,3 +28,6 @@ update AddressBook set bookName = 'FriendsBook', contactType = 'Friends' where f
 update AddressBook set bookName = 'FamilyBook', contactType = 'Family' where lastName = 'Kumar';
 update AddressBook set bookName = 'FamilyBook', contactType = 'Family' where lastName = 'Kumar k';
 update AddressBook set bookName = 'ProfessionBook', contactType = 'Profession' where firstName = 'Madhu';
+select count(firstName) from AddressBook where contactType = 'Family'; 
+select count(firstName) from AddressBook where contactType = 'Friends'; 
+select count(firstName) from AddressBook where contactType = 'Profession';
