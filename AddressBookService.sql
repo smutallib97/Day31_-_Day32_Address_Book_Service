@@ -36,3 +36,11 @@ insert into AddressBook (firstName, lastName, address, city, state, zipcode, pho
 insert into AddressBook (firstName, lastName, address, city, state, zipcode, phoneNumber, email, bookName, contactType) values
 ('Vaibhav', 'Pathak', 'Chinchwad', 'Pune', 'Maharashtra', 412202, 9845123657, 'vpathak97@gmail.com', 'FriendsBook', 'Friends');
 select * from AddressBook;
+select * from AddressBook where city = 'Gurgaon';
+select * from AddressBook where state = 'Karnataka';
+select count(firstName) from AddressBook where city = 'Gurgaon';
+select count(firstName) from AddressBook where city = 'Bangalore';
+select count(firstName) from AddressBook where state = 'Karnataka';
+select count(firstName) from AddressBook where contactType = 'Family'; 
+select count(firstName) from AddressBook where contactType = 'Friends'; 
+select count(firstName) from AddressBook where contactType = 'Profession';
